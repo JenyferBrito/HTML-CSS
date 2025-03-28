@@ -1,0 +1,264 @@
+INDEX.HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATS Collab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="BATS Logo" width="50"> BATS Collab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-5 bg-warning">
+        <div class="content-box mx-auto">
+            <h1 class="mb-3 fw-bold">DESTAQUE-SE NO MERCADO COM A AJUDA DA BATS COLLAB!</h1>
+            <p class="mb-4">A BATS collab tem as ferramentas necessárias para te ajudar a chegar onde você precisa. Afinal de contas nem todo herói usa capa, mas todo herói divulga o seu trabalho aqui com a gente!</p>
+            <img src="img1.png" alt="Equipe BATS" class="img-fluid">
+        </div>
+    </section>
+
+    <!-- Quem Somos -->
+    <section class="text-center py-5 bg-light">
+        <div class="content-box mx-auto">
+            <h2 class="mb-4 fw-bold">QUEM SOMOS</h2>
+            <img src="img2.png" alt="Sérgio G." class="img-fluid mb-3">
+            <p>Nem todo herói usa capa, mas todo herói tem sua bagagem!</p>
+            <h1> Nossa base secreta A BATS collab possui um conjunto de profissionais para elaborar o melhor para sua empresa ou negócio, desde planejamento e aplicação da sua Identidade Visual, Site, E-commerce, Vídeos, Administração de Redes Sociais e muito mais.
+                Basta mandar um sinal que teremos o prazer em atendê-lo!</h1>
+            <button class="btn btn-success">Mandar Sinal</button>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="text-center py-5 bg-dark text-light">
+        <div class="content-box mx-auto">
+            <h5 class="mb-4 fw-bold text-warning">QUEM SOMOS</h5> <!-- Título em laranja -->
+            <p class="text-dark">Manter-se competitivo é uma necessidade no mercado atual e sabemos o quão importante é estar na internet.
+                Para garantir que sua empresa tenha a oportunidade de divulgar seus produtos ou serviços de forma competitiva nesse meio, a BATS está pronta para te ajudar.</p> <!-- Parágrafo em preto -->
+            <img src="img3.png" alt="Sérgio G." class="img-fluid mb-3">
+            <p class="text-warning">Clique no botão para adquirir nossos serviços</p> <!-- Texto explicativo em laranja -->
+            <button class="btn btn-success">Mandar Sinal</button> <!-- Botão verde -->
+        </div>
+    </section>
+    
+
+    <!-- Portfólio -->
+    <section class="text-center py-5 bg-light">
+        <div class="content-box-large mx-auto">
+            <h2 class="text-pink fw-bold">PORTFÓLIO</h2>
+        </div>
+    </section>
+    
+
+    <!-- Parceiros -->
+    <section class="text-center py-5 bg-light">
+        <div class="allelos">
+            <img src="img5.png" alt="Sérgio G." class="img-fluid mb-3">
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <section class="text-center py-5 bg-dark text-light corpo">
+        <div class="content-box mx-auto">
+            <h7 class="fw-bold">COMO PODEMOS AJUDAR?</h7>
+            <form>
+                <p>Entre em contato e veja as vantagens que oferecemos para que sua empresa cresça cada vez mais aproveitando o que a internet possibilita.</p>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nome">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option>Tipo de Serviço</option>
+                        <option>Design</option>
+                        <option>Desenvolvimento</option>
+                    </select>
+                </div>
+                <button class="btn btn-success butão">Mandar Email</button>
+            </form>
+        </div>
+    </section>
+    
+        </div>
+    </section>
+
+    <footer class="text-center bg-dark text-light py-3">
+        <p>© BATS Collab 2024</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+CSS
+body {
+    font-family: Arial, sans-serif;
+    background-color: #09090a;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Quadrados centralizados */
+.content-box {
+    width: 110%;
+    max-width: 400px;
+    padding: 70px;
+    border-radius: 8px;
+    background: rgb(255, 254, 254);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+    
+
+
+/* Zoom nas imagens */
+.img-fluid {
+    max-width: 100%;
+    height: 70;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Títulos personalizados */
+h1, h2 {
+    font-weight: bold;
+    
+}
+
+
+
+/* Cor personalizada para o texto do portfólio */
+.text-pink {
+    color: rgb(243, 131, 187);
+    
+}
+
+/* Botões */
+.btn {
+    padding: 10px 20px;
+}
+
+/* Footer alinhado */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Selecionando o <p> dentro da section com a classe "text-center" */
+.text-center p {
+    color: #080808;  /* Cor do texto */
+    font-size: 1.2rem;  /* Tamanho da fonte */
+    font-weight: bold;  /* Deixa o texto em negrito */
+    font-style: italic;  /* Texto em itálico */
+    margin-top: 10px;  /* Ajuste de espaçamento */
+    
+  
+}
+
+/* Selecionando o <h1> dentro da .content-box */
+.content-box h1 {
+    color: #444; /* Cor do texto */
+    font-size: 0.9rem; /* Ajuste no tamanho da fonte */
+    font-weight: normal; /* Peso da fonte */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilizando a seção com fundo preto e texto claro */
+.text-center.py-5.bg-dark.text-light {
+    background-color: #000; /* Fundo preto */
+    color: #1a1818; /* Texto branco */
+    padding: 5rem 0; /* Espaçamento vertical */
+    position: relative; /* Para permitir o posicionamento de imagem de fundo */
+}
+
+/* Mudando a cor do título "QUEM SOMOS" para laranja */
+.content-box h5 {
+    color: #FFA500; /* Cor laranja */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: bangers;
+}
+
+/* Estilizando o parágrafo */
+.content-box p {
+    color: #1a1818;  /* Texto branco */
+    font-size: 0.9rem;  /* Ajuste no tamanho da fonte */
+    font-weight:lighter;
+    line-height: 1.8;
+}
+
+/* Estilizando a imagem dentro da seção */
+.content-box img {
+    width: 65%; /* Ajusta a largura para 50% do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 50%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+}
+
+.allelos {
+    width: 280%;
+    max-width: 500px; /* Maior largura */
+    margin: 0 auto; /* Centralizado */
+    background: #fff;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.fw-bold {
+    color: #fcda1a; /* Cor laranja */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 1.5rem;
+
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #fcda1a; /* Fundo laranja */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo dos campos de entrada */
+form .form-control, {
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+}
+
+/* Estilo do botão */
+form .btn-warning {
+    background-color: #1d7216; /* Fundo amarelo dourado */
+    color: #000; /* Texto preto */
+    font-weight: bold; /* Negrito */
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+
+.form-select{
+    background-color:#1a1818;
+    color:rgb(244, 246, 248)
+}
+
+.text-pink{
+    color: rgb(204, 28, 86);
+    font-weight: bold; /* Negrito */
+    font-style: italic;
+    font-size: 1.9em;
+    text-align: center;
+}
